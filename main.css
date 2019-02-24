@@ -143,3 +143,44 @@ header button{
     max-width: 100%;
     height: auto;
 }
+
+.work-exp {
+    display: grid;
+    grid-template-rows: 30vh 30vh;
+    align-items: center;
+}
+
+.work-exp .description-part{
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.work-exp .description-part>*{
+    grid-column: 2/3;
+}
+
+.work-exp .description-part p{
+    font-size: 14px;
+    color: #666666;
+}
+
+.work-exp .description-part h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.work-exp .clients{
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    justify-items: center;
+    align-items: center;
+}
+
+.work-exp .clients img:nth-child(1){
+    grid-column: 2/3;
+}
