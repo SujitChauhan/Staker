@@ -71,3 +71,75 @@ header button{
     font-weight: 600;
     color: white;
 }
+
+.work-process{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 30vh auto;
+    align-items: center;
+    text-align: center;
+}
+
+.work-process>*{
+    grid-column: 2/3;
+}
+
+.description-part h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.description-part p{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 20px;
+    color: #222222;
+}
+
+.works-we-do{
+    margin-bottom: 36px;
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 28px;
+    justify-items: center;
+}
+
+.works-we-do div h3{
+    margin-top: 28px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.works-we-do div p{
+    margin-top: 28px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.portfolio .description-part{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio .description-part>*{
+    grid-column: 2/3;
+}
+
+.portfolio .items{
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio .items img{
+    max-width: 100%;
+    height: auto;
+}
